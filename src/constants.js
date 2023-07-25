@@ -2,16 +2,15 @@ export const jsQuizz = {
   questions: [
     {
       id: 1,
-      question:
-        "Which of the following is used in React.js to increase performance?",
+      question: "Javascript is an _______ language?",
       choices: [
-        "Virtual DOM",
-        "Original DOM",
-        "Both A and B",
+        "Object Orientend",
+        "Object Based",
+        "Procedural",
         "None of the above",
       ],
       type: "MCQs",
-      correctAnswer: "Virtual DOM",
+      correctAnswer: "Object Orientend",
     },
     {
       id: 2,
