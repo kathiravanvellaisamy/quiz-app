@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { resultInitialState } from "./constants";
+import { resultInitialState } from "../../constants";
+import "./quiz.scss";
 
 const Quiz = ({ questions }) => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
