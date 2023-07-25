@@ -42,7 +42,7 @@ const Quiz = ({ questions }) => {
   };
   return (
     <div className="quiz-container">
-      <h1>React JS Question</h1>
+      <h1>React JS Question (R1)</h1>
       {!showResult ? (
         <>
           <span className="active-question-no">{currentQuestion + 1}</span>
