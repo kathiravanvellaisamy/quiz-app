@@ -4,7 +4,9 @@ import { jsQuizz } from "./constants";
 function App() {
   return (
     <>
-      <h1>React Js MCQ </h1>
+      <div className="header">
+        <h1>React Js MCQ </h1>
+      </div>
       <Quiz questions={jsQuizz.questions} />
     </>
   );
