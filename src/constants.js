@@ -1,6 +1,12 @@
 export const jsQuizz = {
   questions: [
     {
+      id: 0,
+      question: " _______ provide a way to pass data from one to another?",
+      type: "FIB",
+      correctAnswer: "props",
+    },
+    {
       id: 1,
       question: "Javascript is an _______ language?",
       choices: [
